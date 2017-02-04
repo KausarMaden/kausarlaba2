@@ -1,0 +1,14 @@
+<html>
+</html>
+<script>
+var N = [3, 23, 44, 2, 1, 7];
+var min = getMinValue(N);
+function getMinValue(N){
+    var min = N[0];
+    for (var i = 0; i < N.length; i++) {
+        if (min > N[i]) min = N[i];
+    }
+console.log(min)
+    return min;
+}
+</script>

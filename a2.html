@@ -1,0 +1,14 @@
+<html>
+</html>
+<script>
+ var N = [3, 23, 44, 2, 1, 7];
+var max = getMaxValue(N);
+function getMaxValue(N){
+    var max = N[0]; 
+    for (var i = 0; i < N.length; i++) { 
+        if (max < N[i]) max = N[i]; 
+    }
+   console.log(max)
+    return max;
+}
+</script>
